@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="game-board">
+        <button id="yoshi"><b>Yoshi</b></button>
+        <img src="img/clouds.png" alt="" class="clouds">
+        <img src="img/mario.gif" alt="" class="mario">
+        <img src="./img/pipe.png" alt="" class="pipe">
+    </div>
+    <audio class="audioGameOver">
+        <source src="audio/gameOver.mp3" type="audio/mpeg">
+    </audio>
+    <div class="game-over-screen">
+        <button id="invisible-button" class="invisible" onclick="location.reload()"><b>START</b></button>
+    </div>
+</body>
+</html>
